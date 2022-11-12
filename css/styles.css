@@ -119,8 +119,10 @@ img {
 }
 
 .contact-item .link {
-  display: block;
+  display: flex;
   padding: 32px 0;
+  gap: 10px;
+  align-items: center;
 
   font-weight: 500;
   font-size: 14px;
@@ -132,6 +134,14 @@ img {
 .contact-item .link:hover,
 .contact-item .link:focus {
   color: var(--activ-color);
+}
+
+.mail-icon {
+  fill: currentColor;
+}
+
+.phone-icon {
+  fill: currentColor;
 }
 /* -----------------------HERO----------------------- */
 .hero {
