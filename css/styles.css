@@ -4,6 +4,7 @@
   --discription-color: #757575;
   --text-white-color: #ffffff;
   --feature-color: #f5f4fa;
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -328,9 +329,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--activ-color);
   fill: #ffffff;
 }
@@ -338,6 +340,41 @@ img {
 .social-link:hover .social-icon {
   fill: #ffffff;
 } */
+/* ------------------Постійні клієнти----------------------------- */
+
+.clients-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.clients-item {
+  height: 92px;
+  width: 170px;
+}
+.client-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.clients-logo {
+  fill: var(--icon-color);
+}
+.client-item-link:hover,
+.client-item-link:focus {
+  border-color: var(--activ-color);
+}
+.client-item-link:hover .clients-logo,
+.client-item-link:focus .clients-logo {
+  fill: var(--activ-color);
+}
 /* --------------------------FOOTER-------------------------- */
 .footer {
   background-color: #2f303a;
