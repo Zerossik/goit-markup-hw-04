@@ -336,7 +336,7 @@ img {
   background-color: var(--activ-color);
   fill: #ffffff;
 }
-/* !!!!ВОПРОС МЕНТОРУ!!!! ЗАЧЕМ ЄТОТ МЕТОД? ЕСЛИ МЕТОД ВЫШЕ ТОЖЕ РАБОТАЕТ!!!
+/* !!!!ВОПРОС МЕНТОРУ!!!! ЗАЧЕМ ЕТОТ МЕТОД? ЕСЛИ МЕТОД ВЫШЕ ТОЖЕ РАБОТАЕТ!!!
 .social-link:hover .social-icon {
   fill: #ffffff;
 } */
@@ -422,7 +422,49 @@ img {
   line-height: calc(24 / 14);
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-container {
+  display: flex;
+}
 
+.adress-container {
+  margin-right: 70px;
+}
+.footer-soc-block {
+  padding-top: 12px;
+}
+.active-soc {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: #ffffff;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-soc-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.footer-soc-item {
+  height: 44px;
+  width: 44px;
+}
+.footer-soc-link {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.icon-footer {
+  fill: #ffffff;
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: var(--activ-color);
+}
 /* -----------------PORTFOLIO -------------------*/
 .portfolio {
 }
