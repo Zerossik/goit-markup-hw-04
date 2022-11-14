@@ -308,8 +308,36 @@ img {
   font-size: 16px;
   line-height: calc(19 / 16);
   color: var(--discription-color);
+  margin-bottom: 16px;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.social-list-item {
+  width: 44px;
+  height: 44px;
+}
+.social-link {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #afb1b8;
+}
+.social-link:hover {
+  background-color: var(--activ-color);
+  fill: #ffffff;
+}
+/* !!!!ВОПРОС МЕНТОРУ!!!! ЗАЧЕМ ЄТОТ МЕТОД? ЕСЛИ МЕТОД ВЫШЕ ТОЖЕ РАБОТАЕТ!!!
+.social-link:hover .social-icon {
+  fill: #ffffff;
+} */
 /* --------------------------FOOTER-------------------------- */
 .footer {
   background-color: #2f303a;
