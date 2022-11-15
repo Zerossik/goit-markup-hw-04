@@ -514,7 +514,7 @@ img {
 }
 
 .filter-button:hover,
-.filter-button:active {
+.filter-button:focus {
   color: var(--text-white-color);
   background-color: var(--activ-color);
 }
