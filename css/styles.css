@@ -199,21 +199,17 @@ img {
   width: 270px;
 }
 
-.peculiarities-item::before {
-  content: '';
-  display: block;
+.peculiarities-item-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 120px;
   margin-bottom: 30px;
 
   background-color: var(--feature-color);
   border-radius: 4px;
-
-  background-position: center;
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
 }
-
-.peculiarities-item:nth-child(1)::before {
+/* .peculiarities-item:nth-child(1)::before {
   background-image: url(../images/antenna.svg);
 }
 .peculiarities-item:nth-child(2)::before {
@@ -224,7 +220,7 @@ img {
 }
 .peculiarities-item:nth-child(4)::before {
   background-image: url(../images/astronaut.svg);
-}
+} */
 
 .peculiarities-item-title {
   font-size: 14px;
