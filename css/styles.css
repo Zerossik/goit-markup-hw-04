@@ -424,13 +424,13 @@ img {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .adress-container {
   margin-right: 70px;
 }
 .footer-soc-block {
-  padding-top: 12px;
 }
 .active-soc {
   font-size: 14px;
